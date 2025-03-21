@@ -1,8 +1,8 @@
-##Name:Robinjit kaur  
+## Name:Robinjit kaur  
 
-##Student ID:8867197
+## Student ID:8867197
  
-#AI Training Data Project Documentation
+# AI Training Data Project Documentation
 
 Functional Requirements
 --
@@ -47,3 +47,23 @@ The system shall allow developers to test their knowledge without immediately di
 - [ ]  Develop a user interface that hides answers initially.
 - [ ] Implement a confirmation mechanism to reveal answers when requested.
 - [ ] Test the self-testing functionality with a user sample.
+
+### Requirements_3
+### Description: 
+The system shall enable tagging of questions with metadata such as topics (e.g., "Machine Learning") and difficulty levels (e.g., "Beginner") for effective searching and filtering.
+
+### Assumptions:
+
+- Tagged questions will simplify search and filter processes for developers.
+- Developers rely on predefined metadata to locate relevant questions efficiently.
+
+### Validation Plan:
+
+- Test the tagging system to ensure that all questions can be tagged appropriately.
+- Verify that filters retrieve the correct set of tagged questions.
+
+### Tasks:
+
+- [ ]  Create a tagging framework to define tags such as "topic" and "difficulty level."
+- [ ]  Develop functionality to apply tags to questions.
+- [ ]  Implement a search and filter feature based on tags.
