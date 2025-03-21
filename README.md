@@ -19,11 +19,11 @@ The system shall automatically sort questions into distinct categories to help d
 - Verify that the system categorizes questions based on predefined tags.
 - Conduct tests to ensure the categorization process is accurate and complete.
 
-###  Tasks:
-- [ ]  Define and finalize category schemas (e.g., by topic or type).
-- [ ]  Develop an algorithm to sort questions into categories automatically.
-- [ ] Test the algorithm using sample datasets to ensure accuracy.
-
+###  Actionable Tasks:
+[ ] Define and finalize category schemas, such as "Topic," "Difficulty Level," or "Question Type."
+[ ] Develop a sorting algorithm that uses metadata tags to group questions into categories.
+[ ] Test the algorithm using three sample datasets with diverse question types (target: 95% accuracy).
+[ ] Document categorization workflows for developers to easily adapt and apply
 
 ### Requirements_2
 ### Description: 
@@ -37,10 +37,11 @@ The system shall allow developers to test their knowledge without immediately di
 - Test whether answers are only displayed after user confirmation.
 - Gather feedback from developers to confirm this improves their learning process.
 
-### Tasks:
-- [ ]  Develop a user interface that hides answers initially.
-- [ ] Implement a confirmation mechanism to reveal answers when requested.
-- [ ] Test the self-testing functionality with a user sample.
+### Actionable Tasks:
+[ ] Design a user interface component that hides answers by default.
+[ ] Implement a "Reveal Answer" confirmation button.
+[ ] Test the functionality with 5-10 users and gather feedback through surveys.
+[ ] Revise the interface based on testing results and developer feedback.
 
 ### Requirements_3
 ### Description: 
@@ -54,10 +55,11 @@ The system shall enable tagging of questions with metadata such as topics (e.g.,
 - Test the tagging system to ensure that all questions can be tagged appropriately.
 - Verify that filters retrieve the correct set of tagged questions.
 
-### Tasks:
-- [ ]  Create a tagging framework to define tags such as "topic" and "difficulty level."
-- [ ]  Develop functionality to apply tags to questions.
-- [ ]  Implement a search and filter feature based on tags.
+### Actionable Tasks:
+[ ] Create a metadata schema for tags (e.g., "Topic," "Difficulty Level").
+[ ] Build functionality to apply tags to questions, ensuring ease of use for developers.
+[ ] Implement search and filter features and test them with diverse question sets.
+[ ] Create a tagging and filtering user guide for developers.
 
 ### Requirements_4
 ### Description:
@@ -71,10 +73,11 @@ The system shall enable tagging of questions with metadata such as topics (e.g.,
 - Test whether the bias detection system correctly identifies and highlights biases in datasets.
 - Verify the functionality of the automated correction process with imbalanced datasets.
 
-### Tasks:
-- [ ]  Develop algorithms to detect bias metrics (e.g., demographic representation, topic overrepresentation).
-- [ ]  Implement functionality to apply automatic corrections to biased data.
-- [ ] Test the bias correction system using real-world datasets.
+### Actionable Tasks:
+[ ] Develop an algorithm to detect biases, including metrics like demographic representation and topic overrepresentation.
+[ ] Implement automatic corrections to adjust biases in datasets.
+[ ] Test bias correction with real-world datasets and record improvements (target: 90% accuracy).
+[ ] Create a developer report summarizing detection and correction processes.
 
 ### Requirements_5
 ### Description: 
@@ -88,10 +91,11 @@ The system shall immediately generate reports when biased data is detected, allo
 - Verify that bias reports are generated in real-time when imbalances are detected.
 - Test whether reports provide actionable insights to developers.
 
-### Tasks:
-- [ ]  Create a reporting system for bias metrics and imbalances.
-- [ ]  Ensure real-time integration of the reporting system with data analysis tools.
-- [ ]  Test the clarity and usability of generated reports.
+### Actionable Tasks:
+[ ] Develop a reporting system that includes metrics like bias percentage and diversity distribution.
+[ ] Ensure real-time integration of the reporting system with data analysis tools.
+[ ] Test generated reports for clarity, usability, and accuracy.
+[ ] Provide documentation on interpreting and using reports effectively.
 
 System Requirements
 --
@@ -106,11 +110,11 @@ Developers require instantaneous data retrieval for efficiency.
 Test the system’s search time for retrieving indexed information.
 Verify that the indexed structure integrates well with search and filtering features.
 
-### Tasks:
-
-- [ ] Design and implement an indexed storage mechanism.
-- [ ] Integrate the index with search and tagging functionality.
-- [ ] Test the retrieval speed of the indexed data.
+### Actionable Tasks:
+[ ] Design and implement an indexed storage mechanism.
+[ ] Integrate indexing with tagging and filtering functionality.
+[ ] Test retrieval speed with a large sample dataset.
+[ ] Document indexing workflows and ensure scalability.
 
 ### Requirements_2
 ### Description:
@@ -127,11 +131,11 @@ The system shall only display answers after the user confirms their request, ena
 - Test whether answers are only revealed when a user explicitly confirms.
 - Gather user feedback to ensure this feature aligns with their needs.
 
-### Tasks:
-
-- [ ]  Implement a mechanism that hides answers by default.
-- [ ]  Add a user confirmation button to reveal answers.
-- [ ] Test the user experience with this functionality.
+### Actionable Tasks:
+[ ] Implement a mechanism that hides answers by default.
+[ ] Add a user confirmation button to reveal answers.
+[ ] Test the user experience with this feature, including surveys for feedback.
+[ ] Optimize the feature based on testing results.
 
 ### Requirements_3
 ### Description: 
@@ -148,11 +152,11 @@ The system shall allow tagging of questions by topics and difficulty levels to s
 - Test whether the tagging and filtering system retrieves data accurately.
 - Validate the functionality with diverse question sets.
 
-### Tasks:
-
-- [ ] Develop a metadata schema for tags (e.g., topics, difficulty levels).
-- [ ] Implement a tagging feature for developers to label questions.
-- [ ] Create and test the search and filter functionality.
+### Actionable Tasks:
+[ ] Develop a metadata tagging schema.
+[ ] Implement tagging functionality and ensure user-friendly operation.
+[ ] Test filtering accuracy and usability with different datasets.
+[ ] Create documentation to guide developers in tagging and filtering.
 
 ### Requirements_4
 ### Description: 
@@ -168,11 +172,11 @@ The system shall generate regular reports summarizing biases in data, allowing d
 - Test the report generation system for accuracy and completeness.
 - Verify that reports provide useful data summaries and visualizations.
 
-### Tasks:
-
-- [ ] Develop functionality to generate reports at predefined intervals.
-- [ ] Include metrics like bias percentages and diversity distributions in reports.
-- [ ] Test the report generation system using real-world datasets.
+### Actionable Tasks:
+[ ] Develop functionality to generate reports at predefined intervals.
+[ ] Include metrics such as bias percentage and diversity distribution in reports.
+[ ] Test report generation with diverse datasets.
+[ ] Provide a user manual for interpreting reports.
 
 ### Requirements_5
 ### Description:
@@ -188,8 +192,9 @@ The system shall generate regular reports summarizing biases in data, allowing d
 - Test whether the notification system alerts users promptly after detecting biases.
 - Verify the clarity and content of notification messages.
 
-### Tasks:
+### Actionable Tasks:
+[ ] Develop a notification system for real-time alerts.
+[ ] Integrate the notification system with the bias detection module.
+[ ] Test notification accuracy, clarity, and delivery speed.
+[ ] Document usage guidelines for developers.
 
-- [ ] Develop a notification system for real-time alerts.
-- [ ] Integrate the notification system with the bias detection module.
-- [ ] Test notifications for accuracy and delivery speed.
