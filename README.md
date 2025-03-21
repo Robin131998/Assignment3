@@ -20,10 +20,10 @@ The system shall automatically sort questions into distinct categories to help d
 - Conduct tests to ensure the categorization process is accurate and complete.
 
 ###  Actionable Tasks:
--[ ] Define and finalize category schemas, such as "Topic," "Difficulty Level," or "Question Type."
--[ ] Develop a sorting algorithm that uses metadata tags to group questions into categories.
--[ ] Test the algorithm using three sample datasets with diverse question types (target: 95% accuracy).
--[ ] Document categorization workflows for developers to easily adapt and apply
+- [ ] Define and finalize category schemas, such as "Topic," "Difficulty Level," or "Question Type."
+- [ ] Develop a sorting algorithm that uses metadata tags to group questions into categories.
+- [ ] Test the algorithm using three sample datasets with diverse question types (target: 95% accuracy).
+- [ ] Document categorization workflows for developers to easily adapt and apply
 
 ### Requirements_2
 ### Description: 
@@ -38,10 +38,10 @@ The system shall allow developers to test their knowledge without immediately di
 - Gather feedback from developers to confirm this improves their learning process.
 
 ### Actionable Tasks:
--[ ] Design a user interface component that hides answers by default.
--[ ] Implement a "Reveal Answer" confirmation button.
--[ ] Test the functionality with 5-10 users and gather feedback through surveys.
--[ ] Revise the interface based on testing results and developer feedback.
+- [ ] Design a user interface component that hides answers by default.
+- [ ] Implement a "Reveal Answer" confirmation button.
+- [ ] Test the functionality with 5-10 users and gather feedback through surveys.
+- [ ] Revise the interface based on testing results and developer feedback.
 
 ### Requirements_3
 ### Description: 
@@ -56,10 +56,10 @@ The system shall enable tagging of questions with metadata such as topics (e.g.,
 - Verify that filters retrieve the correct set of tagged questions.
 
 ### Actionable Tasks:
--[ ] Create a metadata schema for tags (e.g., "Topic," "Difficulty Level").
--[ ] Build functionality to apply tags to questions, ensuring ease of use for developers.
--[ ] Implement search and filter features and test them with diverse question sets.
--[ ] Create a tagging and filtering user guide for developers.
+- [ ] Create a metadata schema for tags (e.g., "Topic," "Difficulty Level").
+- [ ] Build functionality to apply tags to questions, ensuring ease of use for developers.
+- [ ] Implement search and filter features and test them with diverse question sets.
+- [ ] Create a tagging and filtering user guide for developers.
 
 ### Requirements_4
 ### Description:
@@ -74,10 +74,10 @@ The system shall enable tagging of questions with metadata such as topics (e.g.,
 - Verify the functionality of the automated correction process with imbalanced datasets.
 
 ### Actionable Tasks:
--[ ] Develop an algorithm to detect biases, including metrics like demographic representation and topic overrepresentation.
--[ ] Implement automatic corrections to adjust biases in datasets.
--[ ] Test bias correction with real-world datasets and record improvements (target: 90% accuracy).
--[ ] Create a developer report summarizing detection and correction processes.
+- [ ] Develop an algorithm to detect biases, including metrics like demographic representation and topic overrepresentation.
+- [ ] Implement automatic corrections to adjust biases in datasets.
+- [ ] Test bias correction with real-world datasets and record improvements (target: 90% accuracy).
+- [ ] Create a developer report summarizing detection and correction processes.
 
 ### Requirements_5
 ### Description: 
@@ -92,10 +92,10 @@ The system shall immediately generate reports when biased data is detected, allo
 - Test whether reports provide actionable insights to developers.
 
 ### Actionable Tasks:
--[ ] Develop a reporting system that includes metrics like bias percentage and diversity distribution.
--[ ] Ensure real-time integration of the reporting system with data analysis tools.
--[ ] Test generated reports for clarity, usability, and accuracy.
--[ ] Provide documentation on interpreting and using reports effectively.
+- [ ] Develop a reporting system that includes metrics like bias percentage and diversity distribution.
+- [ ] Ensure real-time integration of the reporting system with data analysis tools.
+- [ ] Test generated reports for clarity, usability, and accuracy.
+- [ ] Provide documentation on interpreting and using reports effectively.
 
 System Requirements
 --
@@ -111,10 +111,10 @@ Test the system’s search time for retrieving indexed information.
 Verify that the indexed structure integrates well with search and filtering features.
 
 ### Actionable Tasks:
--[ ] Design and implement an indexed storage mechanism.
--[ ] Integrate indexing with tagging and filtering functionality.
--[ ] Test retrieval speed with a large sample dataset.
--[ ] Document indexing workflows and ensure scalability.
+- [ ] Design and implement an indexed storage mechanism.
+- [ ] Integrate indexing with tagging and filtering functionality.
+- [ ] Test retrieval speed with a large sample dataset.
+- [ ] Document indexing workflows and ensure scalability.
 
 ### Requirements_2
 ### Description:
@@ -132,10 +132,10 @@ The system shall only display answers after the user confirms their request, ena
 - Gather user feedback to ensure this feature aligns with their needs.
 
 ### Actionable Tasks:
--[ ] Implement a mechanism that hides answers by default.
--[ ] Add a user confirmation button to reveal answers.
--[ ] Test the user experience with this feature, including surveys for feedback.
--[ ] Optimize the feature based on testing results.
+- [ ] Implement a mechanism that hides answers by default.
+- [ ] Add a user confirmation button to reveal answers.
+- [ ] Test the user experience with this feature, including surveys for feedback.
+- [ ] Optimize the feature based on testing results.
 
 ### Requirements_3
 ### Description: 
@@ -153,10 +153,10 @@ The system shall allow tagging of questions by topics and difficulty levels to s
 - Validate the functionality with diverse question sets.
 
 ### Actionable Tasks:
--[ ] Develop a metadata tagging schema.
--[ ] Implement tagging functionality and ensure user-friendly operation.
--[ ] Test filtering accuracy and usability with different datasets.
--[ ] Create documentation to guide developers in tagging and filtering.
+- [ ] Develop a metadata tagging schema.
+- [ ] Implement tagging functionality and ensure user-friendly operation.
+- [ ] Test filtering accuracy and usability with different datasets.
+- [ ] Create documentation to guide developers in tagging and filtering.
 
 ### Requirements_4
 ### Description: 
@@ -173,10 +173,10 @@ The system shall generate regular reports summarizing biases in data, allowing d
 - Verify that reports provide useful data summaries and visualizations.
 
 ### Actionable Tasks:
--[ ] Develop functionality to generate reports at predefined intervals.
--[ ] Include metrics such as bias percentage and diversity distribution in reports.
--[ ] Test report generation with diverse datasets.
--[ ] Provide a user manual for interpreting reports.
+- [ ] Develop functionality to generate reports at predefined intervals.
+- [ ] Include metrics such as bias percentage and diversity distribution in reports.
+- [ ] Test report generation with diverse datasets.
+- [ ] Provide a user manual for interpreting reports.
 
 ### Requirements_5
 ### Description:
@@ -193,8 +193,8 @@ The system shall generate regular reports summarizing biases in data, allowing d
 - Verify the clarity and content of notification messages.
 
 ### Actionable Tasks:
--[ ] Develop a notification system for real-time alerts.
--[ ] Integrate the notification system with the bias detection module.
--[ ] Test notification accuracy, clarity, and delivery speed.
--[ ] Document usage guidelines for developers.
+- [ ] Develop a notification system for real-time alerts.
+- [ ] Integrate the notification system with the bias detection module.
+- [ ] Test notification accuracy, clarity, and delivery speed.
+- [ ] Document usage guidelines for developers.
 
