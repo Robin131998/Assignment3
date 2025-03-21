@@ -173,3 +173,23 @@ The system shall generate regular reports summarizing biases in data, allowing d
 - [ ] Develop functionality to generate reports at predefined intervals.
 - [ ] Include metrics like bias percentages and diversity distributions in reports.
 - [ ] Test the report generation system using real-world datasets.
+
+### Requirements_5
+### Description:
+ The system shall notify developers immediately when biased or imbalanced data is detected.
+
+### Assumptions:
+
+- Real-time notifications allow developers to act on issues without delay.
+- Developers require clear, concise alerts for data imbalances.
+
+### Validation Plan:
+
+- Test whether the notification system alerts users promptly after detecting biases.
+- Verify the clarity and content of notification messages.
+
+### Tasks:
+
+- [ ] Develop a notification system for real-time alerts.
+- [ ] Integrate the notification system with the bias detection module.
+- [ ] Test notifications for accuracy and delivery speed.
