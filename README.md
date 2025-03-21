@@ -112,3 +112,23 @@ Verify that the indexed structure integrates well with search and filtering feat
 - [ ] Integrate the index with search and tagging functionality.
 - [ ] Test the retrieval speed of the indexed data.
 
+### Requirements_2
+### Description:
+The system shall only display answers after the user confirms their request, enabling self-testing.
+
+### Assumptions:
+
+- Developers benefit from delayed answer access for self-paced learning.
+- This feature supports a more interactive learning process.
+
+
+### Validation Plan:
+
+- Test whether answers are only revealed when a user explicitly confirms.
+- Gather user feedback to ensure this feature aligns with their needs.
+
+### Tasks:
+
+- [ ]  Implement a mechanism that hides answers by default.
+- [ ]  Add a user confirmation button to reveal answers.
+- [ ] Test the user experience with this functionality.
