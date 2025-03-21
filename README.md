@@ -132,3 +132,24 @@ The system shall only display answers after the user confirms their request, ena
 - [ ]  Implement a mechanism that hides answers by default.
 - [ ]  Add a user confirmation button to reveal answers.
 - [ ] Test the user experience with this functionality.
+
+### Requirements_3
+### Description: 
+The system shall allow tagging of questions by topics and difficulty levels to simplify searching and filtering.
+
+### Assumptions:
+
+- Developers need a tagging system to organize and retrieve data efficiently.
+- Effective filters rely on accurate tagging of metadata.
+
+
+### Validation Plan:
+
+- Test whether the tagging and filtering system retrieves data accurately.
+- Validate the functionality with diverse question sets.
+
+### Tasks:
+
+- [ ] Develop a metadata schema for tags (e.g., topics, difficulty levels).
+- [ ] Implement a tagging feature for developers to label questions.
+- [ ] Create and test the search and filter functionality.
